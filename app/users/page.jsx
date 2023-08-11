@@ -13,8 +13,6 @@ async function getData() {
 
 export default async function UsersPage() {
     const users = await getData()
-
-    console.log('Hello there');
     
     const content = (
         <section>

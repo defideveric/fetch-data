@@ -1,3 +1,11 @@
+const Post = {
+    "userId": number,
+    "id": number,
+    "title": string,
+    "body": string
+
+}
+
 const User = {
     "id": number,
     "name": string,
